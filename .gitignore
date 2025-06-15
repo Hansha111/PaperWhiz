@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# dotenv files
+.env
+*.env
+
+# Streamlit logs & cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+.cache/
+
+# MacOS system files
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/
+
+# PDF test files
+*.pdf
