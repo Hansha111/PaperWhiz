@@ -1,57 +1,68 @@
-🧠 PaperWhiz – AI-Powered Research Summarizer
+# 🚀 PaperWhiz – AI-Powered Research Paper Summarizer
 
-PaperWhiz is a smart, Streamlit-based web app that summarizes research papers in a click — whether you're reading classics like Attention is All You Need or uploading your own PDFs. Powered by Meta’s LLaMA-3 via HuggingFace, it delivers customized summaries in different styles and lengths.
+**PaperWhiz** is a smart, stylish mini-project that helps users **summarize complex research papers** in different explanation styles and lengths using the power of **LLMs via Hugging Face**.  
+Built with **LangChain**, **Streamlit**, and **LLaMA 3**, it provides a clean UI and even allows users to upload PDFs or search by paper title.
 
-###🚀 Features
+---
 
-📤 Upload PDFs or enter paper titles manually
-🎨 Choose explanation style: Beginner-friendly, Technical, Code-oriented, or Mathematical
-📏 Select explanation length: Short, Medium, or Detailed
-🧠 Built on LangChain + HuggingFace + LLaMA-3
-🌚 Dark-themed, clean, and modern UI with search-style input
+[Live Demo 🌐](https://paperwhiz-ai.streamlit.app/)
 
-###🔧 Tech Stack
+## 🌟 Features
 
-Streamlit – UI & App Framework
-LangChain – Prompt orchestration
-HuggingFace Endpoint – LLaMA-3 Instruct model
-PyPDF2 – PDF parsing
+- 🔍 Search for research papers by name or upload your own PDF
+- 📄 PDF upload support with automatic content extraction
+- 🎨 Choose explanation **style**: Beginner-Friendly, Technical, Code-Oriented, Mathematical
+- 📏 Choose explanation **length**: Short, Medium, or Long
+- ⚙️ Powered by **Meta’s LLaMA-3** via HuggingFace API
+- 🌙 Dark-themed **modern UI** using Streamlit
 
-###📦 Installation
+---
 
-```
-git clone https://github.com/your-username/paperwhiz.git
-cd paperwhiz
+## 📸 Screenshots
+
+<p align="center">
+  <img src="paperwhiz_ss11.png" alt="Main UI" width="700"/>
+  <br><br>
+  <img src="paperwhiz_ss1.png" alt="Summary Output" width="700"/>
+</p>
+
+---
+
+## 🧪 Tech Stack
+
+- 🧠 **LLM Backend**: LangChain + HuggingFace
+- 🧾 **PDF Parsing**: PyPDF2
+- 🖥 **Frontend**: Streamlit (with a custom dark UI)
+- 🔐 **Env Management**: Python + dotenv
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+```bash
+# 1️⃣ Clone the repo
+git clone https://github.com/Hansha111/PaperWhiz.git
+cd PaperWhiz
+
+# 2️⃣ Create and activate virtual environment
+python -m venv venv
+# Windows
+.\venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+
+# 3️⃣ Install dependencies
 pip install -r requirements.txt
-```
 
-Set up your .env file with:
+# 4️⃣ Add your HuggingFace API key
+# Create a .env file and add this line:
+HUGGINGFACEHUB_API_TOKEN=your_token_here
 
-```
-HUGGINGFACEHUB_API_TOKEN=your_api_token_here
-```
-
-Then run the app:
-
-```
+# 5️⃣ Run the Streamlit app
 streamlit run research_app.py
 ```
 
-####💡 Future Ideas
-
-Section-wise summarization
-Citation generator
-Voice-over summaries
-Arxiv/Semantic Scholar integration
-
-####🤖 Demo Screenshot
-
-![Screenshot](AI_Research_Summarizer_ss(1).png)
-
-![Screenshot](AI_Research_Summarizer_ss(1).png)
+👩‍💻 Author Made with ❤️ by Hansha
 
 
-
-📚 Made by Maya (aka the Whiz herself!)
-
-Give this repo a ⭐ if you found it helpful!
+📬 [Connect on LinkedIn](https://www.linkedin.com/in/hansha-rathod-34883a251/) &nbsp;&nbsp;&nbsp;🌟 [Star this repo](https://github.com/Hansha111/PaperWhiz) if you liked it!
