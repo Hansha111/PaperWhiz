@@ -62,7 +62,9 @@ HUGGINGFACEHUB_API_TOKEN=your_token_here
 streamlit run research_app.py
 ```
 
-👩‍💻 Author Made with ❤️ by Hansha
-
-
-📬 [Connect on LinkedIn](https://www.linkedin.com/in/hansha-rathod-34883a251/) &nbsp;&nbsp;&nbsp;🌟 [Star this repo](https://github.com/Hansha111/PaperWhiz) if you liked it!
+👩‍💻 Author Made with ❤️ <br>
+by Hansha
+<br>
+📬 [Connect on LinkedIn](https://www.linkedin.com/in/hansha-rathod-34883a251/) &nbsp;&nbsp;&nbsp;
+<br>
+🌟 [Star this repo](https://github.com/Hansha111/PaperWhiz) if you liked it!
