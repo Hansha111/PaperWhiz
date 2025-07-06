@@ -1,4 +1,4 @@
-# 🚀 PaperWhiz – AI-Powered Research Paper Summarizer
+# 🔮 PaperWhiz – AI-Powered Research Paper Summarizer
 
 **PaperWhiz** is a smart, stylish mini-project that helps users **summarize complex research papers** in different explanation styles and lengths using the power of **LLMs via Hugging Face**.  
 Built with **LangChain**, **Streamlit**, and **LLaMA 3**, it provides a clean UI and even allows users to upload PDFs or search by paper title.
